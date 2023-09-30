@@ -17,6 +17,7 @@ apply plugin: 'org.parchmentmc.librarian.forgegradle'
 
 apply from: 'gradle/teacon-forge.gradle'
 
+
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
 // definitions at gradle/teacon-forge.gradle
